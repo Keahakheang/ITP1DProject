@@ -35,7 +35,7 @@ def get_attractions_data():
         },
         {
             "id": 4,
-            "name": "Botanic Gardens",
+            "name": "Botanic Gardens  7777",
             "categories": ["nature"],
             "is_free": True,
             "price": 0,
