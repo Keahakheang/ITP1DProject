@@ -5,7 +5,7 @@ def get_attractions_data():
     return [
         {
             "id": 1,
-            "name": "Gardens by the Bay 123456",
+            "name": "Gardens by the Bay",
             "categories": ["nature", "great views", "shows"],
             "is_free": False,
             "price": 28,
@@ -15,7 +15,7 @@ def get_attractions_data():
         },
         {
             "id": 2,
-            "name": "Marina Bay Sands SkyPark 9999",
+            "name": "Marina Bay Sands SkyPark",
             "categories": ["great views"],
             "is_free": False,
             "price": 32,
@@ -25,7 +25,7 @@ def get_attractions_data():
         },
         {
             "id": 3,
-            "name": "Spectra - Light & Water Show 55555",
+            "name": "Spectra - Light & Water Show",
             "categories": ["shows", "great views"],
             "is_free": True,
             "price": 0,
@@ -35,7 +35,7 @@ def get_attractions_data():
         },
         {
             "id": 4,
-            "name": "Botanic Gardens  7777",
+            "name": "Botanic Gardens",
             "categories": ["nature"],
             "is_free": True,
             "price": 0,
