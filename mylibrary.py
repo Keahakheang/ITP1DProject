@@ -5,7 +5,7 @@ def get_attractions_data():
     return [
         {
             "id": 1,
-            "name": "Gardens by the Bay 123",
+            "name": "Gardens by the Bay 123456",
             "categories": ["nature", "great views", "shows"],
             "is_free": False,
             "price": 28,
