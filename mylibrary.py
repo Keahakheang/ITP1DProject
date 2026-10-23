@@ -15,7 +15,7 @@ def get_attractions_data():
         },
         {
             "id": 2,
-            "name": "Marina Bay Sands SkyPark",
+            "name": "Marina Bay Sands SkyPark 9999",
             "categories": ["great views"],
             "is_free": False,
             "price": 32,
