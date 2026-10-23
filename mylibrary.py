@@ -62,7 +62,18 @@ def get_attractions_data():
             "age_groups": ["Kids", "Teens", "Adults", "Seniors"],
             "description": "The world's first nocturnal zoo featuring wildlife habitats and night creature shows.",
             "image": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=600&q=80"
-        }
+        },
+
+        {
+            "id": 7,
+            "name": "GO Cart Racing",
+            "categories": ["shows"],
+            "is_free": False,
+            "price": 60,
+            "age_groups": ["Kids", "Teens", "Adults", "Seniors"],
+            "description": "Car go Vroom",
+            "image": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=600&q=80"
+                }
     ]
 
 
