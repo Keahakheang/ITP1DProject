@@ -15,7 +15,7 @@ categories = ["nature", "great views", "shows", "theme park"]
 selected_categories = st.sidebar.multiselect(
     "Choose categories:",
     categories,
-    default=["nature", "great views"]
+    default=[]
 )
 
 free_only = st.sidebar.checkbox("Show free attractions only")
@@ -28,7 +28,7 @@ else:
         min_value=0,
         max_value=100,
         value=100,
-        step=5
+        step=1
     )
 
 target_age = st.sidebar.selectbox(
