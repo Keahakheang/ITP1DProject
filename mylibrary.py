@@ -25,7 +25,7 @@ def get_attractions_data():
         },
         {
             "id": 3,
-            "name": "Spectra - Light & Water Show",
+            "name": "Spectra - Light & Water Show 55555",
             "categories": ["shows", "great views"],
             "is_free": True,
             "price": 0,
