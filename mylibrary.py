@@ -5,75 +5,74 @@ def get_attractions_data():
     return [
         {
             "id": 1,
-            "name": "Gardens by the Bay",
-            "categories": ["nature", "great views", "shows"],
+            "name": "Transformers: The Ride 3D",
+            "categories": ["rides", "simulator rides", "thrill rides"],
             "is_free": False,
-            "price": 28,
-            "age_groups": ["Kids", "Teens", "Adults", "Seniors"],
-            "description": "Futuristic park featuring giant Supertree structures and dramatic climate-controlled conservatories.",
-            "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=600&q=80"
+            "price": 15,
+            "age_groups": ["Kids", "Teens", "Adults"],
+            "description": "An immersive 3D simulator ride through a battle between the Autobots and Decepticons at Universal Studios Singapore. Park admission is required.",
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/92/a8/2b/fb-img-1504750573426.jpg?w=1200&h=-1&s=1"
         },
         {
             "id": 2,
-            "name": "Marina Bay Sands SkyPark",
-            "categories": ["great views"],
+            "name": "Battlestar Galactica: HUMAN vs. CYLON",
+            "categories": ["rides", "roller coasters", "thrill rides"],
             "is_free": False,
-            "price": 32,
-            "age_groups": ["Teens", "Adults", "Seniors"],
-            "description": "Observation deck offering stunning panoramic views of the city skyline and harbor.",
-            "image": "https://images.unsplash.com/photo-1565967511849-76a60a516170?auto=format&fit=crop&w=600&q=80"
+            "price": 82,
+            "age_groups": ["Teens", "Adults"],
+            "description": "A high-speed dueling roller coaster with two tracks inspired by the HUMAN and CYLON forces. Park admission is required.",
+            "image": "https://www.rwsentosa.com/-/jssmedia/project/non-gaming/rwsentosa/attractions/universal-studios-singapore/rides/uss-lost-world-ride-dino-soarin-_1440x760.jpg?mw=1200"
         },
         {
             "id": 3,
-            "name": "Spectra - Light & Water Show",
-            "categories": ["shows", "great views"],
-            "is_free": True,
-            "price": 0,
-            "age_groups": ["Kids", "Teens", "Adults", "Seniors"],
-            "description": "A free, outdoor light and water show displayed over the water at Event Plaza.",
-            "image": "https://images.unsplash.com/photo-1508873696983-2df505f9e85f?auto=format&fit=crop&w=600&q=80"
+            "name": "Revenge of the Mummy",
+            "categories": ["rides", "roller coasters", "dark rides", "thrill rides"],
+            "is_free": False,
+            "price": 50,
+            "age_groups": ["Teens", "Adults"],
+            "description": "An indoor roller coaster that takes riders through dark scenes inspired by the Mummy films. Park admission is required.",
+            "image": "https://thumbs.dreamstime.com/b/entrance-to-revenge-mummy-indoor-dark-ride-ancient-egypt-universal-studios-singapore-38650264.jpg"
         },
         {
             "id": 4,
-            "name": "Botanic Gardens",
-            "categories": ["nature"],
-            "is_free": True,
-            "price": 0,
-            "age_groups": ["Kids", "Teens", "Adults", "Seniors"],
-            "description": "UNESCO World Heritage site with lush green tropical flora, lakes, and walking trails.",
-            "image": "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=600&q=80"
+            "name": "Jurassic Park Rapids Adventure",
+            "categories": ["rides", "water rides", "family rides"],
+            "is_free": False,
+            "price": 48,
+            "age_groups": ["Kids", "Teens", "Adults"],
+            "description": "A river raft ride through a dinosaur habitat with rapids and a splashdown. Park admission is required.",
+            "image": "https://i.ytimg.com/vi/wjyruWe0zMc/maxresdefault.jpg"
         },
         {
             "id": 5,
-            "name": "Universal Studios",
-            "categories": ["shows", "theme park"],
+            "name": "Sesame Street Spaghetti Space Chase",
+            "categories": ["rides", "dark rides", "family rides"],
             "is_free": False,
-            "price": 82,
+            "price": 73,
             "age_groups": ["Kids", "Teens", "Adults"],
-            "description": "Thrilling rides, live shows, and movie-themed attractions for the entire family.",
-            "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=600&q=80"
+            "description": "A family-friendly indoor ride following Elmo and friends on a space adventure. Park admission is required.",
+            "image": "https://farm9.staticflickr.com/8231/8477331289_a0bbd4e9bb_b.jpg"
         },
         {
             "id": 6,
-            "name": "Night Safari",
-            "categories": ["nature", "shows"],
+            "name": "Canopy Flyer",
+            "categories": ["rides", "aerial rides", "family rides"],
             "is_free": False,
-            "price": 55,
-            "age_groups": ["Kids", "Teens", "Adults", "Seniors"],
-            "description": "The world's first nocturnal zoo featuring wildlife habitats and night creature shows.",
-            "image": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=600&q=80"
+            "price": 39,
+            "age_groups": ["Kids", "Teens", "Adults"],
+            "description": "A suspended ride offering an aerial view of the Lost World area. Park admission is required.",
+            "image": "https://www.rwsentosa.com/-/jssmedia/project/non-gaming/rwsentosa/attractions/universal-studios-singapore/rides/uss-lost-world-ride-dino-soarin-_1440x760.jpg?mw=1200"
         },
-
         {
             "id": 7,
-            "name": "GO Cart Racing",
-            "categories": ["shows"],
+            "name": "Puss In Boots' Giant Journey",
+            "categories": ["rides", "roller coasters", "family rides"],
             "is_free": False,
-            "price": 60,
-            "age_groups": ["Kids", "Teens", "Adults", "Seniors"],
-            "description": "Car go Vroom",
+            "price": 0,
+            "age_groups": ["Kids", "Teens", "Adults"],
+            "description": "A family roller coaster that follows Puss in Boots and Kitty Softpaws on a fairytale adventure. Park admission is required.",
             "image": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=600&q=80"
-                }
+        }
     ]
 
 

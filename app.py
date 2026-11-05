@@ -11,7 +11,16 @@ st.write("Find places to visit based on your preferences.")
 
 st.sidebar.header("Filter Preferences")
 
-categories = ["nature", "great views", "shows", "theme park"]
+categories = [
+    "rides",
+    "thrill rides",
+    "family rides",
+    "water rides",
+    "roller coasters",
+    "dark rides",
+    "simulator rides",
+    "aerial rides",
+]
 selected_categories = st.sidebar.multiselect(
     "Choose categories:",
     categories,
