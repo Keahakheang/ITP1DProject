@@ -62,6 +62,8 @@ if len(recommendations) == 0:
 
 for attraction in recommendations:
     st.image(attraction["image"], width=400)
+    if "image_credit" in attraction:
+        st.caption(attraction["image_credit"])
     st.subheader(attraction["name"])
     st.write(attraction["description"])
     st.write("Categories:")

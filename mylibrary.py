@@ -67,11 +67,11 @@ def get_attractions_data():
             "id": 7,
             "name": "Puss In Boots' Giant Journey",
             "categories": ["rides", "roller coasters", "family rides"],
-            "is_free": False,
+            "is_free": True,
             "price": 0,
             "age_groups": ["Kids", "Teens", "Adults"],
             "description": "A family roller coaster that follows Puss in Boots and Kitty Softpaws on a fairytale adventure. Park admission is required.",
-            "image": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=600&q=80"
+            "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Puss_in_Boots%27_Giant_Journey_1.jpg/960px-Puss_in_Boots%27_Giant_Journey_1.jpg",
         }
     ]
 
