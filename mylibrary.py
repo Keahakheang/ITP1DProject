@@ -1,7 +1,5 @@
-# mylibrary.py
-
 def get_attractions_data():
-    """Returns the main database of attractions with detailed criteria."""
+    #Returns the main database of attractions with detailed criteria.
     return [
         {
             "id": 1,
@@ -77,35 +75,22 @@ def get_attractions_data():
 
 
 def get_recommendations(attractions, selected_categories, max_price=None, free_only=False, target_age=None):
-    """
-    Filters attractions based on categories, budget, free option, and age suitability.
-    Returns a list of recommended attraction dictionaries.
-    """
+    #Filters attractions and Returns a list of recommended attraction dictionaries.
     recommended = []
-
     for item in attractions:
-        # Check category match (if categories selected, match ANY selected category)
         category_match = True
         if selected_categories:
             category_match = any(cat in item["categories"] for cat in selected_categories)
-
-        # Check free filter
         free_match = True
         if free_only:
             free_match = item["is_free"]
-
-        # Check max price filter
         price_match = True
         if max_price is not None and not free_only:
             price_match = item["price"] <= max_price
-
-        # Check age suitability
         age_match = True
         if target_age and target_age != "All Ages":
             age_match = target_age in item["age_groups"]
-
         # Combine all filter criteria
         if category_match and free_match and price_match and age_match:
             recommended.append(item)
-
     return recommended
