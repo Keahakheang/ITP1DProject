@@ -1,3 +1,8 @@
+#SC08, Team 8-04
+#HEANG KEAHAK,  1011630
+#Dhruv Jagdish Iyer, 1011668
+#Jonathan Quek Zhi Yong, 1011940
+
 import streamlit as st
 import mylibrary
 
