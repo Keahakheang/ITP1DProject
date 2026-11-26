@@ -17,7 +17,7 @@ categories = [
     "simulator rides",
     "aerial rides",
 ]
-
+# 
 # initialise sidebar for users to select categories
 selected_categories = st.sidebar.multiselect(
     "Choose categories:",
